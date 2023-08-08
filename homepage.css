@@ -1,0 +1,410 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300&display=swap');
+body{
+    margin: 0;
+    /* background-color: black; */
+}
+
+.header{
+  width: 100%;
+  height: 56px;
+  background-color: #080b14;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .main-content{
+  position: fixed;
+  top: 5px;
+  background: #080b14;
+  display: flex;
+  align-items: center;
+  margin-left: 158px;
+  height: 48px;
+  padding-left: 16px;
+  padding-right: 12px;
+  border-radius: 10px
+}
+
+.contents ul img{
+  width: 28px;
+}
+.contents ul img:hover{
+  width: 28px;
+  background-image: url("images/upimg.png");
+}
+
+.content2 ul img{
+  width: 28px!important;
+}
+.main-content{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin-left: 158px;
+}
+.header li a{
+  font-weight: 500;
+  font-size: 24px;
+  /* padding-left: 39px; */
+  text-decoration: none;
+  display: flex;
+  
+}
+.header li:hover{
+  background: rgb(75, 73, 73);
+}
+.header a{
+  color: #aaa;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.header a:hover{
+  color: #ececec;
+}
+.header nav {
+  list-style: none;
+}
+
+.contents nav li{
+display: inline-block;
+padding: 45px;
+padding: 12px;
+/* background: antiquewhite; */
+}
+
+.header .contents{
+  align-items: center;
+  display: flex;
+  /*background-color: aqua; */
+  height: 100%;
+}
+.content2{
+  align-items: center;
+  display: flex;
+  /* background-color: rgb(7, 212, 52); */
+  height: 100%;
+  padding-left: 37px;
+}
+.content2 nav{
+  list-style: none;
+}
+.content2 nav li{
+  display: inline-block;
+  padding: 45px;
+  padding: 6px;
+}
+.content2 img{
+  width: 36px!important;
+}
+
+
+
+  /* firstsectiondiv */
+  .welcomdiv{
+    overflow: hidden;
+    width: 100%;
+    height: 545px;
+    background-color: rgb(92, 199, 101);
+  }
+  .welcomdiv img{
+    display: block;
+    width: 100%;
+  }
+
+  .welcomdiv .leftcontent{
+       position: absolute;
+       top: 180px;
+       left: 50px;
+       width: 50%;
+       height: 60%;
+  }
+  .leftcontent h1{
+    font-size: 53px;
+    font-weight: unset;
+    margin-bottom: -17px;
+    color: #ffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+  }
+  .leftcontent p{
+    font-size: 27px;
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+  }
+  .leftcontent button{
+    width: 285px;
+    height: 56px;
+    font-size: 20px;
+    background-color: #0F79B1;
+    cursor: pointer;
+  }
+  .leftcontent button:hover{
+    width: 285px;
+    height: 56px;
+    font-size: 20px;
+    background-color: #eeeeee;
+    cursor: pointer;
+    transition: .5s;
+    opacity: 1;
+  }
+
+
+
+
+  .seconddiv{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(243, 101, 19);
+    overflow: hidden;
+    /* background-image: url(images/secondimg.jpg); */
+  }
+.seconddiv img{
+    /* margin-top: 183px; */
+    display: block;
+    height: 711px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .rightcontent2{
+    top: 712px;
+    position: absolute;
+    left: 843px;
+    width: 43%;
+    height: 60%;
+    /* background-color: #3e8e41; */
+  }
+  .rightcontent2 h1{
+    font-size: 42px;
+    font-weight: 100;
+    margin-bottom: -17px;
+    color: #ffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+  }
+  .rightcontent2 p{
+    font-size: 20px;
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+  }
+  .rightcontent2 button{
+    width: 285px;
+    height: 56px;
+    font-size: 20px;
+    background-color: #0F79B1;
+    cursor: pointer;
+  }
+
+  .rightcontent2 button:hover{
+    width: 285px;
+    height: 56px;
+    font-size: 20px;
+    background-color: #eeeeee;
+    cursor: pointer;
+    transition: .5s;
+    opacity: 1;
+  }
+
+  .thirddiv{
+    width: 100%;
+    height: 687px;
+    display: flex;
+    background-color: white;
+  }
+
+  .thirddiv .leftcontent3{
+    width: 50%;
+    height: 50%;
+  
+    /* background-color: aqua; */
+  }
+
+  .thirddiv .leftcontent3 h1{
+    font-size: 43px;
+    margin-left: 78px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+  }
+  .thirddiv .leftcontent3 p{
+    font-size: 23px!important;
+    margin-left: 78px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+  }
+
+  .thirddiv .rightcontent3{
+    width: 50%;
+    height: 50%;
+    /* background-color: rgb(89, 230, 24); */
+  }
+  .thirddiv .gride-container{
+    display: grid;
+    /* background-color: #0F79B1; */
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .thirddiv .gride-item{
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0px;
+    margin-left: -40px;
+    width: 97%;
+    height: 100%;
+    text-align: center;
+  }
+  .thirddiv .gride-item img{
+    max-width: 100%;
+    object-fit: contain;
+  }
+  .thirddiv .rightcontent3 .gride-container div:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+
+
+
+
+
+
+  .forthdiv{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(99, 21, 21);
+    /* background-image: url(images/forthimg.jpg); */
+  }
+  .forthdiv img{
+    width: 100%;
+  }
+
+  .forthdiv .leftcontent4{
+    /* position: absolute;
+    float: left;
+    width: 50%;
+    height: 50%;
+    background-color: #3e8e41; */
+  }
+
+  .forthdiv .rightcontent4{
+     
+    /* float: right; */
+    /* position: absolute; */
+    width: 46%;
+    position: relative;
+    /* text-align: center; */
+    color: white;
+    /* height: 0%; */
+    bottom: 589px;
+    right: 16px;
+    margin-left: 53%;
+
+  }
+  .forthdiv .rightcontent4 h1{
+    font-size: 47px;
+    font-weight: 100;
+    margin-bottom: -17px;
+    color: #ffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+  }
+
+  .forthdiv .rightcontent4 p{
+    
+    font-size: 22px;
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+  }
+
+  .forthdiv .rightcontent4 button{
+    width: 285px;
+    height: 56px;
+    font-size: 20px;
+    background-color: #0F79B1;
+    cursor: pointer;
+  }
+  .forthdiv .rightcontent4 button:hover{
+    width: 285px;
+    height: 56px;
+    font-size: 20px;
+    background-color: #eeeeee;
+    cursor: pointer;
+    transition: .5s;
+    opacity: 1;
+  }
+
+  .fifthdiv{
+    overflow: hidden;
+    margin-top: 74px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(99, 21, 21);
+    /* background-image: url(images/fifthimg.jpg); */
+  }
+  .fifthdiv img{
+    width: 100%;
+  }
+  .fifthdiv .rightcontent5{
+     /* float: right; */
+    /* position: absolute; */
+    width: 46%;
+    position: relative;
+    /* text-align: center; */
+    color: white;
+    /* height: 0%; */
+    bottom: 627px;
+    right: 16px;
+    margin-left: 102px;
+  }
+  .fifthdiv .rightcontent5 h1{
+    font-size: 52px;
+    font-weight: 100;
+    margin-bottom: -17px;
+    color: #ffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+  }
+  .fifthdiv .rightcontent5 p{
+    font-size: 23px;
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+  }
+  .fifthdiv .rightcontent5 button{
+    width: 285px;
+    height: 56px;
+    font-size: 20px;
+    background-color: #0F79B1;
+    cursor: pointer;
+  }
+  .fifthdiv .rightcontent5 button:hover{
+    width: 285px;
+    height: 56px;
+    font-size: 20px;
+    background-color: #eeeeee;
+    cursor: pointer;
+    transition: .5s;
+    opacity: 1;
+  }
+/* ///footer */
+  .footer{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #282828;
+    color: white;
+
+  }
+  .footer  p{
+    font-family: sans-serif;
+  }
+  .footer .linkpara span a{
+    color: #0f79af;
+    text-decoration: none;
+    padding: 4px;
+    font-size: 19px;
+  }
+
+
+
+
