@@ -222,7 +222,7 @@ padding: 12px;
   }
 
   .thirddiv .leftcontent3 h1{
-   font-size: 38px;
+   font-size: 38px!important;
     margin-left: 78px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
